@@ -9,7 +9,8 @@ driver = sel[0]
 driven = sel[1]
 
 #connectAttr() needs attribute names as strings in "nodeName.attributeName" 
-#format, so we have to build that string manually.
+#format, so we have to build that string manually. Yeah shuck!
 
 # Connect translate attributes
 cmds.connectAttr(driver + ".translate", driven + ".translate", force=True)
+
